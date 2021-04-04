@@ -36,7 +36,9 @@ namespace task_4
 
         private void label_Click(object sender, EventArgs e)
         {
-
+            Label senderlabel = sender as Label;
+            int num = int.Parse(senderlabel.Text.Split()[1]);
+            label1.Text ="Selected Index" + num;
         }
     }
 }

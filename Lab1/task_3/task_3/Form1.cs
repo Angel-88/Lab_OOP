@@ -34,7 +34,7 @@ namespace task_3
         {
             selectedColor = listBox1.SelectedItem.ToString();
         }
-
+         
         private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
         {
             switch (selectedColor)
